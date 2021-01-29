@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Главная</a></li>
+        <li><a href="adding.html">Опубликовать объявление</a></li>
+        <li><a href="authorization.html">Вход</a></li>
+    </ul>
+
+    <div>
+        <h1 class="page-center">Регистрация</h1>
+        <div>
+            <label>Логин</label>
+            <input id="regLogin" type="text">
+        </div>
+        <div>
+            <label>Пароль</label>
+            <input id="regPassword" type="text">
+        </div>
+        <div>
+            <label>Фамилия</label>
+            <input id="regLastName" type="text">
+        </div>
+        <div>
+            <label>Имя</label>
+            <input id="regFirstName" type="text">
+        </div>
+        <div>
+            <label>Отчество</label>
+            <input id="regPatronymic" type="text">
+        </div>
+        <div>
+            <label>Телефон</label>
+            <input id="regPhoneNumber" type="tel">
+        </div>
+        <div class="page-center">
+            <button class="submit-button" onclick="register()">Зарегистрироваться</button>
+        </div>
+    </div>
+
+    <script src="js/check_input.js"></script>
+</body>
+</html>

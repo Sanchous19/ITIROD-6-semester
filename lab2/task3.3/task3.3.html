@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>task3.3</title>
+</head>
+<body>
+    <div>
+        <h2>Данные товара</h2>
+        <div>
+            <label for="group">Группа</label>
+            <input id="group" type="number">
+        </div>
+        <br>
+        <div>
+            <label for="code">Уникальный код</label>
+            <input id="code" type="number">
+        </div>
+        <br>
+        <div>
+            <label for="name">Название</label>
+            <input id="name" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="model">Модель</label>
+            <input id="model" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="cost">Цена за единицу</label>
+            <input id="cost" type="number">
+        </div>
+        <br>
+        <div>
+            <label for="count">Количество</label>
+            <input id="count" type="number">
+        </div>
+        <br>
+        <div>
+            <button id="add" onclick="addProduct()">Добавить</button>
+            <button id="update" onclick="updateProduct()">Обновить</button>
+            <button id="showAll" onclick="showShop()">Посмотреть все</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Удаление товара</h2>
+        <div>
+            <label for="deleteCode">Уникальный код</label>
+            <input id="deleteCode" type="number">
+        </div>
+        <br>
+        <div>
+            <button id="delete" onclick="deleteProduct()">Удалить</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Сортировка по признаку</h2>
+        <div>
+            <label>Признак</label>
+            <br>
+            <input type="radio" id="1" name="sortProperty" value="code" checked>Уникальный код<br>
+            <input type="radio" id="2" name="sortProperty" value="name">Название<br>
+            <input type="radio" id="3" name="sortProperty" value="cost">Цена за единицу<br>
+        </div>
+        <br>
+        <div>
+            <button id="sort" onclick="sort()">Отсортировать</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Вывод товаров, количество которых на складе меньше заданного значения</h2>
+        <div>
+            <label for="countLimit">Граничное значение</label>
+            <input id="countLimit" type="number">
+        </div>
+        <br>
+        <div>
+            <button id="show" onclick="showByLimit()">Показать</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Поиск по признаку</h2>
+        <div>
+            <label>Признак</label>
+            <br>
+            <input type="radio" id="1" name="searchProperty" value="name" checked>Название<br>
+            <input type="radio" id="2" name="searchProperty" value="model">Модель<br>
+        </div>
+        <div>
+            <label for="propertyValue">Значение признака</label>
+            <input id="propertyValue" type="text">
+        </div>
+        <br>
+        <div>
+            <button id="search" onclick="search()">Найти</button>
+        </div>
+    </div>
+
+    <script src="task3.3.js"></script>
+</body>
+</html>

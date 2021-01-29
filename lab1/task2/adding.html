@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавление предложения</title>
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Главная</a></li>
+        <li><a href="adding.html">Опубликовать объявление</a></li>
+        <li><a href="authorization.html">Вход</a></li>
+    </ul>
+
+    <div>
+        <h1 class="page-center">Новое объявление</h1>
+        <div>
+            <label>Заголовок</label>
+            <input id="header" type="text">
+        </div>
+        <div>
+            <label>Тип недвижимости</label>
+            <select>
+                <option>Квартира</option>
+                <option>Комната</option>
+                <option>Офис</option>
+                <option>Гараж</option>
+                <option>Другое</option>
+            </select>
+        </div>
+        <div>
+            <label>Город</label>
+            <input id="city" type="text">
+        </div>
+        <div>
+            <label>Адрес</label>
+            <input id="address" type="text">
+        </div>
+        <div>
+            <label>Близость к метро</label>
+            <input id="underground" type="number">
+        </div>
+        <div>
+            <label>Площадь</label>
+            <input id="square" type="number">
+        </div>
+        <div>
+            <label>Количество комнат</label>
+            <input id="rooms" type="number">
+        </div>
+        <div>
+            <label>Цена</label>
+            <input id="cost" type="number">
+        </div>
+        <div>
+            <label>Дополнительно</label>
+            <textarea></textarea>
+        </div>
+        <div class="page-center">
+            <button class="submit-button" onclick="add()">Опубликовать</button>
+        </div>
+    </div>
+
+    <script src="js/check_input.js"></script>
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тренинг</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <img class="page-center logo" src="images/logo.jpg">
+        <label class="page-center header-label">Тренинг от ISoft</label>
+    </div>
+    <div>
+        <video class="page-center" controls src="videos/video.mp4"></video>
+    </div>
+    <div>
+        <h1>О тренинге</h1>
+        <p>
+            JavaScript – один из самых популярных и кроссплатформенных языков программирования, позволяющий работать как
+            с веб-интерфейсами так и с серверной частью и мобильными клиентами.
+            Тренинг проводится под эгидой сообщества профессиональных фронтэнд-разработчиков Rolling Scopes.
+            Тренинг посвящён современным подходам, технологиям и инструментальным средствам разработки веб-приложений
+            с использованием языка программирования JavaScript.​
+        </p>
+    </div>
+
+    <div>
+        <h1 class="text-center">Пример кода</h1>
+        <div>
+            <pre>
+                function getFibonacciElement(index) {
+                    let fibonacciRow = Array(index + 1);
+                    fibonacciRow[0] = 0;
+                    fibonacciRow[1] = 1;
+                    for (let i = 2; i <= index; i++) {
+                        fibonacciRow[i] = fibonacciRow[i - 1] + fibonacciRow[i - 2];
+                    }
+                    return fibonacciRow[index];
+                }
+            </pre>
+        </div>
+    </div>
+
+    <div>
+        <h1>Темы на тренинге</h1>
+        <ul>
+            <li>HTML и верстка
+                <ul>
+                    <li>Введение в HTML, HTML5.</li>
+                    <li>Синтаксис языка и разметка документа.</li>
+                    <li>Работа с текстом, изображениями, аудио и видео файлами.</li>
+                    <li>Таблицы и формы.</li>
+                </ul>
+            </li>
+            <li>CSS
+                <ul>
+                    <li>Основы CSS, CSS3.</li>
+                    <li>Синтаксис и стилизация простых документов.</li>
+                </ul>
+            </li>
+            <li>JS
+                <ul>
+                    <li>Базовые аспекты JavaScript.</li>
+                    <li>Основы языка. ООП в JS.</li>
+                    <li>DOM и BOM.</li>
+                    <li>JQuery и Angular2.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div>
+            <h1>Расписание занятий</h1>
+            <table>
+                <th>День</th>
+                <th>Время</th>
+                <tr>
+                    <td>Понедельник</td>
+                    <td>20.00</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td>20.00</td>
+                </tr>
+                <tr>
+                    <td>Пятница</td>
+                    <td>20.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <h1 class="text-center">Анкета</h1>
+        <form action="" method="POST">
+            <div>
+                <label>Фамилия</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Имя</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Отчество</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Телефон</label>
+                <input type="tel">
+            </div>
+            <div>
+                <label>ВУЗ</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Специальность</label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Вид практики</label>
+                <select>
+                    <option>Преддипломная </option>
+                    <option>Производственная </option>
+                </select>
+            </div>
+            <div>
+                <label>Дата начала практики</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Дата окончания практики</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>Желаемое время присутствия в офисе</label>
+                <input type="time">
+            </div>
+            <div>
+                <label>Навыки</label>
+                <table>
+                    <th>Навык</th>
+                    <th>Уровень</th>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>-</option>
+                                <option>HTML</option>
+                                <option>CSS</option>
+                                <option>JavaScript</option>
+                                <option>jQuery</option>
+                                <option>TypeScript</option>
+                                <option>Ajax</option>
+                                <option>Django</option>
+                                <option>ASP.NET Core</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>-</option>
+                                <option>Высокий</option>
+                                <option>Средний</option>
+                                <option>Низкий</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>-</option>
+                                <option>HTML</option>
+                                <option>CSS</option>
+                                <option>JavaScript</option>
+                                <option>jQuery</option>
+                                <option>TypeScript</option>
+                                <option>Ajax</option>
+                                <option>Django</option>
+                                <option>ASP.NET Core</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>-</option>
+                                <option>Высокий</option>
+                                <option>Средний</option>
+                                <option>Низкий</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>-</option>
+                                <option>HTML</option>
+                                <option>CSS</option>
+                                <option>JavaScript</option>
+                                <option>jQuery</option>
+                                <option>TypeScript</option>
+                                <option>Ajax</option>
+                                <option>Django</option>
+                                <option>ASP.NET Core</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>-</option>
+                                <option>Высокий</option>
+                                <option>Средний</option>
+                                <option>Низкий</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <label>Фото</label>
+                <input type="file" accept="image/*">
+            </div>
+            <div class="text-center">
+                <button class="submit-button">Откликнуться</button>
+            </div>
+        </form>
+    </div>
+    <footer class="text-center">copyright © ISsoft</footer>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: khaki;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffde1d;
+}
+
+li {
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+    float: right;
+}
+
+li a {
+    color: black;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.page-center {
+    text-align: center;
+}

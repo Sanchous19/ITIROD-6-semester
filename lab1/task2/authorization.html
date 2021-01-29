@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Главная</a></li>
+        <li><a href="adding.html">Опубликовать объявление</a></li>
+        <li><a href="authorization.html">Вход</a></li>
+    </ul>
+
+    <div>
+        <h1 class="page-center">Авторизация</h1>
+        <div>
+            <label>Логин</label>
+            <input id="login" type="text">
+        </div>
+        <div>
+            <label>Пароль</label>
+            <input id="password" type="text">
+        </div>
+        <div class="page-center">
+            <button class="submit-button" onclick="authorize()">Войти</button>
+        </div>
+        <form class="page-center" action="registration.html">
+            <button class="submit-button">Регистрация</button>
+        </form>
+    </div>
+
+    <script src="js/check_input.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/filter.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="home.html">Главная</a></li>
+        <li><a href="adding.html">Опубликовать объявление</a></li>
+        <li><a href="authorization.html">Вход</a></li>
+    </ul>
+
+    <div>
+        <h1 class="page-center">Фильтрация</h1>
+        <div>
+            <label>Тип</label>
+            <select>
+                <option>Квартира</option>
+                <option>Комната</option>
+                <option>Офис</option>
+                <option>Гараж</option>
+                <option>Другое</option>
+            </select>
+
+            <label>Город</label>
+            <input type="text">
+
+            <label>Стоимость</label>
+            <input type="text" placeholder="от">
+            <input type="text" placeholder="до">
+
+            <label>Площадь</label>
+            <input type="number" placeholder="от">
+            <input type="number" placeholder="до">
+
+            <label>Количество комнат</label>
+            <input type="number" placeholder="от">
+            <input type="number" placeholder="до">
+
+            <label>Близость к метро</label>
+            <input type="number" placeholder="от">
+            <input type="number" placeholder="до">
+
+            <button class="filter-button">Применить</button>
+        </div>
+    </div>
+    <div>
+        <h1 class="page-center">Результаты поиска</h1>
+        <article class="result-item">
+            <img class="photo" src="images/1.jpg">
+            <div class="description">
+                <h2>Квартира на Грушевке</h2>
+                <p>В Минске, в районе Грушевке сдается квартира, недорого. До метро 500 метров</p>
+                <div class="add-info">
+                    <span>Город: Минск, Площадь: 70 м2, Количество комнат: 3, Стоимость: 400$</span>
+                </div>
+            </div>
+        </article>
+        <article class="result-item">
+            <img class="photo" src="images/2.jpg">
+            <div class="description">
+                <h2>Комната в Гомеле</h2>
+                <p>В Гомеле, в самом центре города, недорого</p>
+                <div class="add-info">
+                    <span>Город: Гомель, Площадь: 20 м2, Количество комнат: 1, Стоимость: 200$</span>
+                </div>
+            </div>
+        </article>
+        <article class="result-item">
+            <img class="photo" src="images/3.jpg">
+            <div class="description">
+                <h2>Офис на Немиге</h2>
+                <p>В Минске, в центре города, на Немиге сдается офис</p>
+                <div class="add-info">
+                    <span>Город: Минск, Площадь: 300 м2, Количество комнат: 10, Стоимость: 7000$</span>
+                </div>
+            </div>
+        </article>
+        <article class="result-item">
+            <img class="photo" src="images/4.jpg">
+            <div class="description">
+                <h2>Квартира на Петровщине недорого</h2>
+                <p>В Минске, на Петровщине сдается недорого квартира</p>
+                <div class="add-info">
+                    <span>Город: Минск, Площадь: 90 м2, Количество комнат: 3, Стоимость: 600$</span>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <script src="js/check_input.js"></script>
+</body>
+</html>

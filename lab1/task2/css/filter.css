@@ -1,0 +1,53 @@
+label {
+    font-family: Consolas;
+    font-size: 12px;
+    padding: 10px;
+}
+
+input, select {
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: Consolas;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 5%;
+}
+
+.filter-button {
+    background-color: #d11507;
+    border: 1px solid;
+    border-radius: 5px;
+    float: right;
+    font-family: Consolas;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 10%;
+}
+
+.photo {
+    height: 200px;
+    width: 300px;
+}
+
+.result-item {
+    background-color: white;
+	display: flex;
+	margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.description {
+    display: block;
+	padding-left: 30px;
+	vertical-align: top;
+    width: 70%;
+}
+
+.add-info {
+	position: absolute;
+	bottom: 30px;
+}
+
